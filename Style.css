@@ -15,3 +15,8 @@
 	color: white;
 	font-size: large;
 }
+#NavBar {
+	background-color: black;
+	margin-top: -22px;
+	margin-right: 700px;
+}
