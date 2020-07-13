@@ -2,6 +2,7 @@
  	font-family: helvetica, arial;
  	margin-left: auto;
  	margin-right: auto;
+ 	width: 960px
  }
  h1 {
 	text-align: center;
@@ -12,19 +13,20 @@
 }
 #NavBar {
 	background-color: black;
-	margin-top: -99px;
-	margin-right: 1550px;
+	margin-top: -50px;
+	margin-right: 0px;
+	margin-bottom: 0px
 	padding: 50px 0px 110px 0px;
 	text-decoration: none;
 }
 #NavBar li {
-	margin-bottom: 100px;
-	margin-left: -40px;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin-left: 0px;
 	margin-right: 0px;
-	margin-top: 70px;
-	padding: 40px 0px 40px 0px;
+	margin-top: 0px;
+	padding: 10px 50px 10px 75px;
     color: white;
-    background-color: #0C045B;
     text-align: center;
     position: relative;
     text-decoration: none;
