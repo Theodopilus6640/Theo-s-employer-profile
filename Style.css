@@ -44,4 +44,7 @@
 #NavBar button:hover{
 	background-color: black;
 }
+#welcome {
+	background-image: url("../images/code.webp") ;
+}
 
