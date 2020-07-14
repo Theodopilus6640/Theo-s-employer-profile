@@ -6,35 +6,29 @@
  }
  h1 {
 	text-align: center;
-	background-color: #0C045B ;
+	background-color: black ;
 	color: white;
 	padding: 20px 0px 20px 0px;
-	margin-left: 0px;
 }
 #NavBar {
 	background-color: black;
 	margin-top: -50px;
-	margin-right: 0px;
-	margin-bottom: 0px
-	padding: 50px 0px 110px 0px;
-	text-decoration: none;
 }
 #NavBar li {
 	display: inline-block;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	padding: 10px 50px 10px 75px;
+	padding: 10px 70px 10px 70px;
     color: white;
-    text-align: center;
-    position: relative;
-    text-decoration: none;
+    background-color: #0C045B; 
+    margin-top: 1px;
 
 }
 #NavBar a:hover {
-	color: black
-	
+	color: white;
+}
+#NavBar ul {
+	text-align:center;
+	margin-left: -40px;
+}
 
 
 
