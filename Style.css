@@ -1,16 +1,15 @@
  html {
  	font-family: helvetica, arial;
- 	background-color: grey;
+ 	background: linear-gradient(to left, #10067C, #7F24C2);
  }
  #Container {
- 	width: 960px;
+ 	width: 100%;
+ 	height: 100vh;
  	margin-left: auto;
  	margin-right: auto;
- 	border-radius: 10px solid black;
  }
  h1 {
 	text-align: center;
-	background-color: black ;
 	color: white;
 	padding: 20px 0px 20px 0px;
 	margin-top: -10px;
@@ -21,8 +20,8 @@
 	background-color: black;
 	margin-top: -10px;
 	border-radius: 10px;
-	margin-right: 100px;
-	margin-left: 100px;
+	margin-right: 300px;
+	margin-left: 300px;
 }
 #NavBar li {
 	display: inline-block;
@@ -39,10 +38,10 @@
 }
 #NavBar button {
 	padding: 5px 20px 5px 20px; 
-	background-color: grey;
+	background-color: #10067C;
 	color: white;
 }
-
-
-
+#NavBar button:hover{
+	background-color: black;
+}
 
